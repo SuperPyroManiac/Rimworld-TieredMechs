@@ -1,6 +1,6 @@
 # Tiered Mechs - Rimworld mod
 
-**A mod that adds new mechs with higher skill levels and speeds! These mechs do not replace the original ones. They are instead an upgrade you can research.**
+**A mod that adds new mechs with higher skill levels and speeds! These mechs do not replace the original ones. They are instead a new mech you can research and create.**
 
 ----------
 
