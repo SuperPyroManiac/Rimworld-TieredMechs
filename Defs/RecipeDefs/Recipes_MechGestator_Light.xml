@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef ParentName="LightMechanoidRecipe">
+    <defName>LifterPlus</defName>
+    <label>gestate lifterplus</label>
+    <description>Gestate a lifterplus mechanoid.</description>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>125</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>200</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SubcoreHigh</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Mech_LifterPlus>1</Mech_LifterPlus>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>Mech_LifterPlus</ThingDef>
+    </descriptionHyperlinks>
+	<researchPrerequisite>HighMechtech</researchPrerequisite>
+  </RecipeDef>
+
+  <RecipeDef ParentName="LightMechanoidRecipe">
+    <defName>ConstructoidPlus</defName>
+    <label>gestate constructoidplus</label>
+    <description>Gestate a constructoidplus mechanoid.</description>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>125</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>250</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SubcoreHigh</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Mech_ConstructoidPlus>1</Mech_ConstructoidPlus>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>Mech_ConstructoidPlus</ThingDef>
+    </descriptionHyperlinks>
+	<researchPrerequisite>HighMechtech</researchPrerequisite>
+  </RecipeDef>
+
+</Defs>

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<!-- Lifter+ -->
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="MechGestator"]/recipes</xpath>
+					<value>
+						<li>LifterPlus</li>
+					</value>
+			</li>
+			<!-- Constructoid+ -->
+            <li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="MechGestator"]/recipes</xpath>
+					<value>
+						<li>ConstructoidPlus</li>
+					</value>
+			</li>
+			<!-- Fabricor+ -->
+            <li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="MechGestator"]/recipes</xpath>
+					<value>
+						<li>FabricorPlus</li>
+					</value>
+			</li>
+			<!-- Agrihand+ -->
+            <li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="MechGestator"]/recipes</xpath>
+					<value>
+						<li>AgrihandPlus</li>
+					</value>
+			</li>
+			<!-- Cleansweeper+ -->
+            <li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="MechGestator"]/recipes</xpath>
+					<value>
+						<li>CleansweeperPlus</li>
+					</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>
