@@ -37,6 +37,7 @@ Increased skill level (Level 20)
 Increased speed.
 Increased cleaning speed (150%)
 
+----------
 
 ## These values may change in the future.
 Current plans may involve lowering the "plus" bots down and introducing an "ultra" teir that is level 20 with very high values and more crafting needs.
@@ -46,6 +47,7 @@ I also plan to add some upgraded combat bots. Things like an improved militor an
 
 **You will find these in the mech gestator once you research _high mechtech_.**
 
+----------
 
 # Suggestions & Bug Reports
 Please open a ticket on my Github. 
