@@ -177,7 +177,7 @@
     <PawnKindDef ParentName="NonCombatLightMechanoidKind">
       <defName>Mech_FabricorPlus</defName>
       <label>fabricorplus</label>
-      <race>Mech_Fabricor</race>
+      <race>Mech_FabricorPlus</race>
       <lifeStages>
         <li>
           <bodyGraphicData>
@@ -259,7 +259,7 @@
     <PawnKindDef ParentName="NonCombatLightMechanoidKind">
       <defName>Mech_AgrihandPlus</defName>
       <label>agrihandplus</label>
-      <race>Mech_Agrihand</race>
+      <race>Mech_AgrihandPlus</race>
       <lifeStages>
         <li>
           <bodyGraphicData>
