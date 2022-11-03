@@ -284,8 +284,8 @@
 
     <!-- Cleansweeper+ -->
     <ThingDef ParentName="LightMechanoid">
-      <defName>Mech_Cleansweeper</defName>
-      <label>cleansweeper</label>
+      <defName>Mech_CleansweeperPlus</defName>
+      <label>cleansweeperplus</label>
       <description>A light advanced mechanoid designed for cleaning.</description>
       <statBases>
         <CleaningSpeed>1.0</CleaningSpeed>
@@ -319,9 +319,9 @@
     </ThingDef>
 
     <PawnKindDef ParentName="NonCombatLightMechanoidKind">
-      <defName>Mech_Cleansweeper</defName>
-      <label>cleansweeper</label>
-      <race>Mech_Cleansweeper</race>
+      <defName>Mech_CleansweeperPlus</defName>
+      <label>cleansweeperplus</label>
+      <race>Mech_CleansweeperPlus</race>
       <lifeStages>
         <li>
           <bodyGraphicData>
