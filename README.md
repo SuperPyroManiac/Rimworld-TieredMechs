@@ -11,13 +11,13 @@
 - AgrihandPlus
 - CleansweeperPlus
 
-**LifterPlus**
+## **LifterPlus**
 
 Increased speed.
 
 Increased hauling capacity.
 
-**ConstructoidPlus**
+## **ConstructoidPlus**
 
 Increased speed.
 
@@ -25,7 +25,7 @@ Increased hauling capacity.
 
 Increased skill level (Level 20)
 
-**FabricorPlus**
+## **FabricorPlus**
 
 Increased speed.
 
@@ -35,12 +35,12 @@ Increased skill level (Level 20)
 
 No food poison from meals made by it.
 
-**AgrihandPlus**
+## **AgrihandPlus**
 
 Increased speed.
 Increased skill level (Level 20)
 
-**CleansweeperPlus**
+## **CleansweeperPlus**
 
 Increased speed.
 
