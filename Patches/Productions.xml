@@ -37,6 +37,13 @@
 						<li>CleansweeperPlus</li>
 					</value>
 			</li>
+			<!-- Paramedic+ -->
+            <li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="MechGestator"]/recipes</xpath>
+					<value>
+						<li>ParamedicPlus</li>
+					</value>
+			</li>
 		</operations>
 	</Operation>
 </Patch>
