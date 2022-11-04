@@ -8,7 +8,7 @@
       <description>An upgraded small advanced mechanoid designed for hauling.</description>
       <statBases>
         <MoveSpeed>7.0</MoveSpeed>
-        <CarryingCapacity>150</CarryingCapacity>
+        <CarryingCapacity>450</CarryingCapacity>
         <WorkSpeedGlobal>1</WorkSpeedGlobal>
       </statBases>
       <race>
@@ -66,10 +66,10 @@
       <label>constructoidPlus</label>
       <description>An upgraded small advanced mechanoid designed to perform construction tasks.</description>
       <statBases>
-        <ConstructionSpeed>1.0</ConstructionSpeed>
+        <ConstructionSpeed>2.0</ConstructionSpeed>
         <MoveSpeed>6.5</MoveSpeed>
         <CarryingCapacity>150</CarryingCapacity>
-        <WorkSpeedGlobal>1</WorkSpeedGlobal>
+        <WorkSpeedGlobal>2</WorkSpeedGlobal>
       </statBases>
       <race>
         <mechEnabledWorkTypes>
@@ -145,7 +145,7 @@
         <FoodPoisonChance>0.0</FoodPoisonChance>
         <MoveSpeed>6.5</MoveSpeed>
         <CarryingCapacity>150</CarryingCapacity>
-        <WorkSpeedGlobal>1</WorkSpeedGlobal>
+        <WorkSpeedGlobal>2</WorkSpeedGlobal>
       </statBases>
       <race>
         <mechEnabledWorkTypes>
