@@ -222,10 +222,10 @@
         </li>
       </tools>
       <statBases>
-        <PlantWorkSpeed>1.0</PlantWorkSpeed>
+        <PlantWorkSpeed>2.0</PlantWorkSpeed>
         <MoveSpeed>6.5</MoveSpeed>
         <CarryingCapacity>150</CarryingCapacity>
-        <WorkSpeedGlobal>1</WorkSpeedGlobal>
+        <WorkSpeedGlobal>2</WorkSpeedGlobal>
       </statBases>
       <race>
         <body>Mech_Agrihand</body>
