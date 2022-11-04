@@ -4,8 +4,8 @@
   <!-- Lifter+ -->
   <RecipeDef ParentName="LightMechanoidRecipe">
     <defName>LifterPlus</defName>
-    <label>gestate lifterplus</label>
-    <description>Gestate a lifterplus mechanoid.</description>
+    <label>gestate advanced lifter</label>
+    <description>Gestate an advanced lifter mechanoid.</description>
     <ingredients Inherit="False">
       <li>
         <filter>
@@ -52,8 +52,8 @@
   <!-- Constructoid+ -->
   <RecipeDef ParentName="LightMechanoidRecipe">
     <defName>ConstructoidPlus</defName>
-    <label>gestate constructoidplus</label>
-    <description>Gestate a constructoidplus mechanoid.</description>
+    <label>gestate advanced constructoid</label>
+    <description>Gestate an advanced constructoid mechanoid.</description>
     <ingredients Inherit="False">
       <li>
         <filter>
@@ -100,8 +100,8 @@
   <!-- Fabricor+ -->
   <RecipeDef ParentName="LightMechanoidRecipe">
     <defName>FabricorPlus</defName>
-    <label>gestate fabricorplus</label>
-    <description>Gestate a fabricorplus mechanoid.</description>
+    <label>gestate advanced fabricor</label>
+    <description>Gestate an advanced fabricor mechanoid.</description>
     <ingredients Inherit="False">
       <li>
         <filter>
@@ -148,8 +148,8 @@
   <!-- Agrihand+ -->
   <RecipeDef ParentName="LightMechanoidRecipe">
     <defName>AgrihandPlus</defName>
-    <label>gestate agrihandplus</label>
-    <description>Gestate a agrihandplus mechanoid.</description>
+    <label>gestate advanced agrihand</label>
+    <description>Gestate an advanced agrihand mechanoid.</description>
     <ingredients Inherit="False">
       <li>
         <filter>
@@ -196,8 +196,8 @@
   <!-- Cleansweeper+ -->
   <RecipeDef ParentName="LightMechanoidRecipe">
     <defName>CleansweeperPlus</defName>
-    <label>gestate cleansweeperplus</label>
-    <description>Gestate a cleansweeperplus mechanoid.</description>
+    <label>gestate advanced cleansweeper</label>
+    <description>Gestate an advanced cleansweeper mechanoid.</description>
     <ingredients Inherit="False">
       <li>
         <filter>

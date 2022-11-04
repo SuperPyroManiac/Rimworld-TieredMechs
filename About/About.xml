@@ -2,9 +2,10 @@
 <ModMetaData>
   <name>Tiered Mechs</name>
   <author>SuperPyroManiac</author>
+  <packageId>Pyro.TieredMechs</packageId>
   <supportedVersions><li>1.4</li></supportedVersions>
   <url>https://github.com/SuperPyroManiac/Rimworld-TieredMechs</url>
-  <description>
+  <description> Mod Version: 1.1.0
 
     Adds new tiers of mechs to make them more useful late game.
 
