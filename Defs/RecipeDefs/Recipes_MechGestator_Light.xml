@@ -240,5 +240,53 @@
     </descriptionHyperlinks>
 	<researchPrerequisite>HighMechtech</researchPrerequisite>
   </RecipeDef>
+  
+  <!-- Paramedic+ -->
+  <RecipeDef ParentName="LightMechanoidRecipe">
+  <defName>ParamedicPlus</defName>
+  <label>gestate advanced paramedic</label>
+  <description>Gestate an advanced paramedic mechanoid.</description>
+  <researchPrerequisite>HighMechtech</researchPrerequisite>
+  <ingredients Inherit="False">
+    <li>
+      <filter>
+        <thingDefs>
+          <li>Steel</li>
+        </thingDefs>
+      </filter>
+      <count>300</count>
+    </li>
+    <li>
+    <filter>
+      <thingDefs>
+        <li>Plasteel</li>
+      </thingDefs>
+    </filter>
+    <count>350</count>
+  </li>
+  <li>
+    <filter>
+      <thingDefs>
+        <li>ComponentSpacer</li>
+      </thingDefs>
+    </filter>
+    <count>4</count>
+  </li>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>SubcoreHigh</li>
+        </thingDefs>
+      </filter>
+      <count>1</count>
+    </li>
+  </ingredients>
+  <products>
+    <Mech_ParamedicPlus>1</Mech_ParamedicPlus>
+  </products>
+  <descriptionHyperlinks>
+    <ThingDef>Mech_ParamedicPlus</ThingDef>
+  </descriptionHyperlinks>
+</RecipeDef>
 
 </Defs>
