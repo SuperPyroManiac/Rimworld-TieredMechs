@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <WorkGiverDef>
-    <defName>DoBillsMechGestator</defName>
+    <defName>DoBillsAdvancedMechGestator</defName>
     <label>make things at advanced mech gestator</label>
     <giverClass>WorkGiver_DoBill</giverClass>
     <workType>Smithing</workType>
