@@ -348,9 +348,10 @@
     <ThingDef ParentName="LightMechanoid">
       <defName>Mech_ParamedicPlus</defName>
       <label>advanced paramedic</label>
-      <description>A small advanced mechanoid designed for non-violent emergency situation management and medical care. The paramedic can rescue the wounded, fight fires, treat the sick, and perform surgeries. Its built-in jump launcher allows it to jump into, and out of, emergency situations, and its built-in firefoam popper can quickly extinguish fires.</description>
+      <description>A small advanced mechanoid designed for non-violent emergency situation management and medical care. (Includes putting out fires.)</description>
       <statBases>
-        <MoveSpeed>3.8</MoveSpeed>
+        <MoveSpeed>9.0</MoveSpeed>
+        <WorkSpeedGlobal>2.0</WorkSpeedGlobal>
       </statBases>
       <race>
         <mechEnabledWorkTypes>
