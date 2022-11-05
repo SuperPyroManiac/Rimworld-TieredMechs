@@ -6,14 +6,14 @@
     <label>advanced mech gestator</label>
     <description>A tank of mechanite-rich fluid with support tubes for feeding in materials and nutrients. Upgraded AI and chemical filtering allows for much more advanced electronics to be gestated. This advanced building is only capable of generating advanced light-weight mechs.\n\nThe process is more wasteful than a standard gestator and will produce more waste.</description>
     <graphicData>
-      <texPath>Things/Building/Production/MechGestatorStandard</texPath>
+      <texPath>Things/Building/Production/AdvancedMechGestatorStandard</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(5.6,4)</drawSize>
       <shadowData>
         <volume>(3, 2, 1.9)</volume>
       </shadowData>
     </graphicData>
-    <uiIconPath>Things/Building/Production/MechGestatorStandard_MenuIcon</uiIconPath>
+    <uiIconPath>Things/Building/Production/AdvancedMechGestatorStandard_MenuIcon</uiIconPath>
     <uiIconScale>1.85</uiIconScale>
     <interactionCellOffset>(1,0,2)</interactionCellOffset>
     <recipes>
