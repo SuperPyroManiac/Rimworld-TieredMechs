@@ -7,6 +7,7 @@
     <defName>LifterPlus</defName>
     <label>gestate advanced lifter</label>
     <description>Gestate an advanced lifter mechanoid.</description>
+    <gestationCycles>2</gestationCycles>
     <ingredients Inherit="False">
       <li>
         <filter>
@@ -55,6 +56,7 @@
     <defName>ConstructoidPlus</defName>
     <label>gestate advanced constructoid</label>
     <description>Gestate an advanced constructoid mechanoid.</description>
+    <gestationCycles>2</gestationCycles>
     <ingredients Inherit="False">
       <li>
         <filter>
@@ -103,6 +105,7 @@
     <defName>FabricorPlus</defName>
     <label>gestate advanced fabricor</label>
     <description>Gestate an advanced fabricor mechanoid.</description>
+    <gestationCycles>2</gestationCycles>
     <ingredients Inherit="False">
       <li>
         <filter>
@@ -151,6 +154,7 @@
     <defName>AgrihandPlus</defName>
     <label>gestate advanced agrihand</label>
     <description>Gestate an advanced agrihand mechanoid.</description>
+    <gestationCycles>2</gestationCycles>
     <ingredients Inherit="False">
       <li>
         <filter>
@@ -199,6 +203,7 @@
     <defName>CleansweeperPlus</defName>
     <label>gestate advanced cleansweeper</label>
     <description>Gestate an advanced cleansweeper mechanoid.</description>
+    <gestationCycles>2</gestationCycles>
     <ingredients Inherit="False">
       <li>
         <filter>
@@ -248,6 +253,7 @@
   <label>gestate advanced paramedic</label>
   <description>Gestate an advanced paramedic mechanoid.</description>
   <researchPrerequisite>HighMechtech</researchPrerequisite>
+  <gestationCycles>2</gestationCycles>
   <ingredients Inherit="False">
     <li>
       <filter>
@@ -296,6 +302,7 @@
     <defName>LifterUltra</defName>
     <label>gestate ultratech lifter</label>
     <description>Gestate an ultratech lifter mechanoid.</description>
+    <gestationCycles>3</gestationCycles>
     <ingredients Inherit="False">
       <li>
         <filter>
@@ -344,6 +351,7 @@
     <defName>ConstructoidUltra</defName>
     <label>gestate ultratech constructoid</label>
     <description>Gestate an ultratech constructoid mechanoid.</description>
+    <gestationCycles>3</gestationCycles>
     <ingredients Inherit="False">
       <li>
         <filter>
@@ -392,6 +400,7 @@
     <defName>FabricorUltra</defName>
     <label>gestate ultratech fabricor</label>
     <description>Gestate an ultratech fabricor mechanoid.</description>
+    <gestationCycles>3</gestationCycles>
     <ingredients Inherit="False">
       <li>
         <filter>
@@ -440,6 +449,7 @@
     <defName>AgrihandUltra</defName>
     <label>gestate ultratech agrihand</label>
     <description>Gestate an ultratech agrihand mechanoid.</description>
+    <gestationCycles>3</gestationCycles>
     <ingredients Inherit="False">
       <li>
         <filter>
@@ -488,6 +498,7 @@
     <defName>CleansweeperUltra</defName>
     <label>gestate ultratech cleansweeper</label>
     <description>Gestate an ultratech cleansweeper mechanoid.</description>
+    <gestationCycles>3</gestationCycles>
     <ingredients Inherit="False">
       <li>
         <filter>
@@ -537,6 +548,7 @@
   <label>gestate ultratech paramedic</label>
   <description>Gestate an ultratech paramedic mechanoid.</description>
   <researchPrerequisite>UltraMechtech</researchPrerequisite>
+  <gestationCycles>3</gestationCycles>
   <ingredients Inherit="False">
     <li>
       <filter>
