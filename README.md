@@ -47,7 +47,7 @@ Increased speed.
 
 Increased cleaning speed (150%)
 
-## **CleansweeperPlus**
+## **ParamedicPlus**
 
 Increased speed.
 
