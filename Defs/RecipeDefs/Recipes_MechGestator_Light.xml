@@ -14,7 +14,7 @@
             <li>Steel</li>
           </thingDefs>
         </filter>
-        <count>125</count>
+        <count>85</count>
       </li>
       <li>
         <filter>
@@ -22,7 +22,7 @@
             <li>Plasteel</li>
           </thingDefs>
         </filter>
-        <count>200</count>
+        <count>10</count>
       </li>
       <li>
         <filter>
@@ -30,7 +30,7 @@
             <li>ComponentIndustrial</li>
           </thingDefs>
         </filter>
-        <count>12</count>
+        <count>4</count>
       </li>
       <li>
         <filter>
@@ -62,7 +62,7 @@
             <li>Steel</li>
           </thingDefs>
         </filter>
-        <count>125</count>
+        <count>200</count>
       </li>
       <li>
         <filter>
@@ -70,15 +70,15 @@
             <li>Plasteel</li>
           </thingDefs>
         </filter>
-        <count>250</count>
+        <count>100</count>
       </li>
       <li>
         <filter>
           <thingDefs>
-            <li>ComponentSpacer</li>
+            <li>ComponentIndustrial</li>
           </thingDefs>
         </filter>
-        <count>1</count>
+        <count>6</count>
       </li>
       <li>
         <filter>
@@ -110,7 +110,7 @@
             <li>Steel</li>
           </thingDefs>
         </filter>
-        <count>125</count>
+        <count>100</count>
       </li>
       <li>
         <filter>
@@ -118,7 +118,7 @@
             <li>Plasteel</li>
           </thingDefs>
         </filter>
-        <count>350</count>
+        <count>300</count>
       </li>
       <li>
         <filter>
@@ -126,7 +126,7 @@
             <li>ComponentSpacer</li>
           </thingDefs>
         </filter>
-        <count>2</count>
+        <count>1</count>
       </li>
       <li>
         <filter>
@@ -158,7 +158,7 @@
             <li>Steel</li>
           </thingDefs>
         </filter>
-        <count>225</count>
+        <count>150</count>
       </li>
       <li>
         <filter>
@@ -166,15 +166,15 @@
             <li>Plasteel</li>
           </thingDefs>
         </filter>
-        <count>150</count>
+        <count>50</count>
       </li>
       <li>
         <filter>
           <thingDefs>
-            <li>ComponentSpacer</li>
+            <li>ComponentIndustrial</li>
           </thingDefs>
         </filter>
-        <count>1</count>
+        <count>10</count>
       </li>
       <li>
         <filter>
@@ -206,7 +206,7 @@
             <li>Steel</li>
           </thingDefs>
         </filter>
-        <count>325</count>
+        <count>100</count>
       </li>
       <li>
         <filter>
@@ -214,7 +214,7 @@
             <li>Plasteel</li>
           </thingDefs>
         </filter>
-        <count>50</count>
+        <count>5</count>
       </li>
       <li>
         <filter>
@@ -255,7 +255,7 @@
           <li>Steel</li>
         </thingDefs>
       </filter>
-      <count>300</count>
+      <count>100</count>
     </li>
     <li>
     <filter>
@@ -263,7 +263,7 @@
         <li>Plasteel</li>
       </thingDefs>
     </filter>
-    <count>350</count>
+    <count>70</count>
   </li>
   <li>
     <filter>
@@ -271,7 +271,7 @@
         <li>ComponentSpacer</li>
       </thingDefs>
     </filter>
-    <count>4</count>
+    <count>1</count>
   </li>
     <li>
       <filter>
@@ -336,7 +336,7 @@
     <descriptionHyperlinks>
       <ThingDef>Mech_LifterUltra</ThingDef>
     </descriptionHyperlinks>
-	<researchPrerequisite>HighMechtech</researchPrerequisite>
+	<researchPrerequisite>UltraMechtech</researchPrerequisite>
   </RecipeDef>
 
   <!-- UltraConstructoid -->
@@ -384,7 +384,7 @@
     <descriptionHyperlinks>
       <ThingDef>Mech_ConstructoidUltra</ThingDef>
     </descriptionHyperlinks>
-	<researchPrerequisite>HighMechtech</researchPrerequisite>
+	<researchPrerequisite>UltraMechtech</researchPrerequisite>
   </RecipeDef>
 
   <!-- UltraFabricor -->
@@ -432,7 +432,7 @@
     <descriptionHyperlinks>
       <ThingDef>Mech_FabricorUltra</ThingDef>
     </descriptionHyperlinks>
-	<researchPrerequisite>HighMechtech</researchPrerequisite>
+	<researchPrerequisite>UltraMechtech</researchPrerequisite>
   </RecipeDef>
 
   <!-- UltraAgrihand -->
@@ -480,7 +480,7 @@
     <descriptionHyperlinks>
       <ThingDef>Mech_AgrihandUltra</ThingDef>
     </descriptionHyperlinks>
-	<researchPrerequisite>HighMechtech</researchPrerequisite>
+	<researchPrerequisite>UltraMechtech</researchPrerequisite>
   </RecipeDef>
 
   <!-- UltraCleansweeper -->
@@ -508,10 +508,10 @@
       <li>
         <filter>
           <thingDefs>
-            <li>ComponentIndustrial</li>
+            <li>ComponentSpacer</li>
           </thingDefs>
         </filter>
-        <count>6</count>
+        <count>1</count>
       </li>
       <li>
         <filter>
@@ -528,7 +528,7 @@
     <descriptionHyperlinks>
       <ThingDef>Mech_CleansweeperUltra</ThingDef>
     </descriptionHyperlinks>
-	<researchPrerequisite>HighMechtech</researchPrerequisite>
+	<researchPrerequisite>UltraMechtech</researchPrerequisite>
   </RecipeDef>
   
   <!-- UltraParamedic -->
@@ -536,7 +536,7 @@
   <defName>ParamedicUltra</defName>
   <label>gestate ultratech paramedic</label>
   <description>Gestate an ultratech paramedic mechanoid.</description>
-  <researchPrerequisite>HighMechtech</researchPrerequisite>
+  <researchPrerequisite>UltraMechtech</researchPrerequisite>
   <ingredients Inherit="False">
     <li>
       <filter>
