@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <RecipeDef ParentName="BaseMechanoidResurrectionRecipe">
+    <defName>ResurrectAdvancedLightMech</defName>
+    <label>resurrect and advanced light mechanoid</label>
+    <description>Resurrect a friendly advanced mechanoid of the light weight class. So long as the mechanoid's body is not completely destroyed, it can be resurrected.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Corpses</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Corpse_Mech_LifterPlus</li>
+        <li>Corpse_Mech_ConstructoidPlus</li>
+        <li>Corpse_Mech_AgrihandPlus</li>
+        <li>Corpse_Mech_CleansweeperPlus</li>
+        <li>Corpse_Mech_ParamedicPlus</li>
+        <li>Corpse_Mech_FabricorPlus</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+</Defs>
