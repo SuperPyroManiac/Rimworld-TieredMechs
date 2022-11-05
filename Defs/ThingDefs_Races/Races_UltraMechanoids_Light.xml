@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <!-- Lifter+ -->
+    <!-- UltraLifter -->
     <ThingDef ParentName="LightMechanoid">
-      <defName>Mech_LifterPlus</defName>
-      <label>advanced lifter</label>
-      <description>An upgraded small advanced mechanoid designed for hauling.</description>
+      <defName>Mech_LifterUltra</defName>
+      <label>ultratech lifter</label>
+      <description>An upgraded small ultratech mechanoid designed for hauling.</description>
       <statBases>
-        <MoveSpeed>7.0</MoveSpeed>
-        <CarryingCapacity>450</CarryingCapacity>
+        <MoveSpeed>9.5</MoveSpeed>
+        <CarryingCapacity>680</CarryingCapacity>
         <WorkSpeedGlobal>1</WorkSpeedGlobal>
       </statBases>
       <race>
@@ -35,9 +35,9 @@
     </ThingDef>
 
     <PawnKindDef ParentName="NonCombatLightMechanoidKind">
-      <defName>Mech_LifterPlus</defName>
-      <label>advanced lifter</label>
-      <race>Mech_LifterPlus</race>
+      <defName>Mech_LifterUltra</defName>
+      <label>ultratech lifter</label>
+      <race>Mech_LifterUltra</race>
       <lifeStages>
         <li>
           <bodyGraphicData>
@@ -60,16 +60,16 @@
       </lifeStages>
     </PawnKindDef>
 
-    <!-- Constructoid+ -->
+    <!-- UltraConstructoid -->
     <ThingDef ParentName="LightMechanoid">
-      <defName>Mech_ConstructoidPlus</defName>
-      <label>advanced constructoid</label>
-      <description>An upgraded small advanced mechanoid designed to perform construction tasks.</description>
+      <defName>Mech_ConstructoidUltra</defName>
+      <label>ultratech constructoid</label>
+      <description>An upgraded small ultratech mechanoid designed to perform construction tasks.</description>
       <statBases>
-        <ConstructionSpeed>2.0</ConstructionSpeed>
-        <MoveSpeed>6.5</MoveSpeed>
-        <CarryingCapacity>150</CarryingCapacity>
-        <WorkSpeedGlobal>2</WorkSpeedGlobal>
+        <ConstructionSpeed>3</ConstructionSpeed>
+        <MoveSpeed>7.5</MoveSpeed>
+        <CarryingCapacity>300</CarryingCapacity>
+        <WorkSpeedGlobal>2.5</WorkSpeedGlobal>
       </statBases>
       <race>
         <mechEnabledWorkTypes>
@@ -108,9 +108,9 @@
     </ThingDef>
 
     <PawnKindDef ParentName="NonCombatLightMechanoidKind">
-      <defName>Mech_ConstructoidPlus</defName>
-      <label>advanced constructoid</label>
-      <race>Mech_ConstructoidPlus</race>
+      <defName>Mech_ConstructoidUltra</defName>
+      <label>ultratech constructoid</label>
+      <race>Mech_ConstructoidUltra</race>
       <lifeStages>
         <li>
           <bodyGraphicData>
@@ -136,16 +136,16 @@
       </weaponTags>
     </PawnKindDef>
 
-    <!-- Fabricor+ -->
+    <!-- UltraFabricor -->
     <ThingDef ParentName="LightMechanoid">
-      <defName>Mech_FabricorPlus</defName>
-      <label>advanced fabricor</label>
-      <description>A small advanced work mechanoid designed to craft all manner of manufactured objects.</description>
+      <defName>Mech_FabricorUltra</defName>
+      <label>ultratech fabricor</label>
+      <description>A small ultratech work mechanoid designed to craft all manner of manufactured objects.</description>
       <statBases>
         <FoodPoisonChance>0.0</FoodPoisonChance>
         <MoveSpeed>6.5</MoveSpeed>
-        <CarryingCapacity>150</CarryingCapacity>
-        <WorkSpeedGlobal>2</WorkSpeedGlobal>
+        <CarryingCapacity>300</CarryingCapacity>
+        <WorkSpeedGlobal>3</WorkSpeedGlobal>
       </statBases>
       <race>
         <mechEnabledWorkTypes>
@@ -175,9 +175,9 @@
     </ThingDef>
 
     <PawnKindDef ParentName="NonCombatLightMechanoidKind">
-      <defName>Mech_FabricorPlus</defName>
-      <label>advanced fabricor</label>
-      <race>Mech_FabricorPlus</race>
+      <defName>Mech_FabricorUltra</defName>
+      <label>ultratech fabricor</label>
+      <race>Mech_FabricorUltra</race>
       <lifeStages>
         <li>
           <bodyGraphicData>
@@ -203,11 +203,11 @@
       </weaponTags>
     </PawnKindDef>
 
-    <!-- Agrihand+ -->
+    <!-- UltraAgrihand -->
     <ThingDef ParentName="LightMechanoid">
-      <defName>Mech_AgrihandPlus</defName>
-      <label>advanced agrihand</label>
-      <description>A small advanced mechanoid designed to sow and harvest crops.</description>
+      <defName>Mech_AgrihandUltra</defName>
+      <label>ultratech agrihand</label>
+      <description>A small ultratech mechanoid designed to sow and harvest crops.</description>
       <tools>
         <li>
           <label>right blade</label>
@@ -222,10 +222,10 @@
         </li>
       </tools>
       <statBases>
-        <PlantWorkSpeed>2.0</PlantWorkSpeed>
-        <MoveSpeed>6.5</MoveSpeed>
+        <PlantWorkSpeed>3.0</PlantWorkSpeed>
+        <MoveSpeed>7.5</MoveSpeed>
         <CarryingCapacity>150</CarryingCapacity>
-        <WorkSpeedGlobal>2</WorkSpeedGlobal>
+        <WorkSpeedGlobal>3</WorkSpeedGlobal>
       </statBases>
       <race>
         <body>Mech_Agrihand</body>
@@ -257,9 +257,9 @@
     </ThingDef>
 
     <PawnKindDef ParentName="NonCombatLightMechanoidKind">
-      <defName>Mech_AgrihandPlus</defName>
-      <label>advanced agrihand</label>
-      <race>Mech_AgrihandPlus</race>
+      <defName>Mech_AgrihandUltra</defName>
+      <label>ultratech agrihand</label>
+      <race>Mech_AgrihandUltra</race>
       <lifeStages>
         <li>
           <bodyGraphicData>
@@ -282,16 +282,15 @@
       </lifeStages>
     </PawnKindDef>
 
-    <!-- Cleansweeper+ -->
+    <!-- UltraCleansweeper -->
     <ThingDef ParentName="LightMechanoid">
-      <defName>Mech_CleansweeperPlus</defName>
-      <label>advanced cleansweeper</label>
-      <description>A light advanced mechanoid designed for cleaning.</description>
+      <defName>Mech_CleansweeperUltra</defName>
+      <label>ultratech cleansweeper</label>
+      <description>A light ultratech mechanoid designed for cleaning.</description>
       <statBases>
-        <CleaningSpeed>1.0</CleaningSpeed>
-        <MoveSpeed>7.0</MoveSpeed>
-        <CarryingCapacity>150</CarryingCapacity>
-        <WorkSpeedGlobal>1.5</WorkSpeedGlobal>
+        <CleaningSpeed>10.0</CleaningSpeed>
+        <MoveSpeed>10.0</MoveSpeed>
+        <WorkSpeedGlobal>3.5</WorkSpeedGlobal>
       </statBases>
       <race>
         <mechEnabledWorkTypes>
@@ -319,9 +318,9 @@
     </ThingDef>
 
     <PawnKindDef ParentName="NonCombatLightMechanoidKind">
-      <defName>Mech_CleansweeperPlus</defName>
-      <label>advanced cleansweeper</label>
-      <race>Mech_CleansweeperPlus</race>
+      <defName>Mech_CleansweeperUltra</defName>
+      <label>ultratech cleansweeper</label>
+      <race>Mech_CleansweeperUltra</race>
       <lifeStages>
         <li>
           <bodyGraphicData>
@@ -344,14 +343,14 @@
       </lifeStages>
     </PawnKindDef>
     
-    <!-- Paramedic+ -->    
+    <!-- UltraParamedic -->    
     <ThingDef ParentName="LightMechanoid">
-      <defName>Mech_ParamedicPlus</defName>
-      <label>advanced paramedic</label>
-      <description>A small advanced mechanoid designed for non-violent emergency situation management and medical care. (Includes putting out fires.)</description>
+      <defName>Mech_ParamedicUltra</defName>
+      <label>ultratech paramedic</label>
+      <description>A small ultratech mechanoid designed for non-violent emergency situation management and medical care. (Includes putting out fires.)</description>
       <statBases>
-        <MoveSpeed>9.0</MoveSpeed>
-        <WorkSpeedGlobal>2.0</WorkSpeedGlobal>
+        <MoveSpeed>11.0</MoveSpeed>
+        <WorkSpeedGlobal>4.0</WorkSpeedGlobal>
       </statBases>
       <race>
         <mechEnabledWorkTypes>
@@ -379,9 +378,9 @@
     </ThingDef>
   
     <PawnKindDef ParentName="LightMechanoidKind">
-      <defName>Mech_ParamedicPlus</defName>
-      <label>advanced paramedic</label>
-      <race>Mech_ParamedicPlus</race>
+      <defName>Mech_ParamedicUltra</defName>
+      <label>ultratech paramedic</label>
+      <race>Mech_ParamedicUltra</race>
       <allowInMechClusters>false</allowInMechClusters>
       <lifeStages>
         <li>
