@@ -10,6 +10,7 @@
 - FabricorPlus
 - AgrihandPlus
 - CleansweeperPlus
+- ParamedicPlus
 
 ## **LifterPlus**
 
@@ -45,6 +46,14 @@ Increased skill level (Level 20)
 Increased speed.
 
 Increased cleaning speed (150%)
+
+## **CleansweeperPlus**
+
+Increased speed.
+
+Increased workspeed speed (200%)
+
+Increased skill level (Level 20)
 
 ----------
 
