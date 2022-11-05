@@ -23,11 +23,17 @@
       <li>CleansweeperPlus</li>
       <li>FabricorPlus</li>
       <li>ParamedicPlus</li>
+      <li>LifterUltra</li>
+      <li>ConstructoidUltra</li>
+      <li>AgrihandUltra</li>
+      <li>CleansweeperUltra</li>
+      <li>FabricorUltra</li>
+      <li>ParamedicUltra</li>
       <li>ResurrectAdvancedLightMech</li>
     </recipes>
     <statBases>
       <MaxHitPoints>250</MaxHitPoints>
-      <WorkToBuild>9000</WorkToBuild>
+      <WorkToBuild>10000</WorkToBuild>
       <Mass>25</Mass>
       <Flammability>0.5</Flammability>
     </statBases>
