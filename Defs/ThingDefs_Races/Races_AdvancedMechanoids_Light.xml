@@ -297,7 +297,7 @@
         <mechEnabledWorkTypes>
           <li>Cleaning</li>
         </mechEnabledWorkTypes>
-        <mechFixedSkillLevel>20</mechFixedSkillLevel>
+        <mechFixedSkillLevel>16</mechFixedSkillLevel>
         <lifeStageAges>
           <li>
             <def>MechanoidFullyFormed</def>
