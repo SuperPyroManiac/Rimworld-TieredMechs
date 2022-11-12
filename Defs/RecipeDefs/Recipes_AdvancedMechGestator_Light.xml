@@ -36,7 +36,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>SubcoreHigh</li>
+            <li>SubcoreRegular</li>
           </thingDefs>
         </filter>
         <count>1</count>
@@ -85,7 +85,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>SubcoreHigh</li>
+            <li>SubcoreRegular</li>
           </thingDefs>
         </filter>
         <count>1</count>
@@ -183,7 +183,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>SubcoreHigh</li>
+            <li>SubcoreRegular</li>
           </thingDefs>
         </filter>
         <count>1</count>
@@ -232,7 +232,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>SubcoreHigh</li>
+            <li>SubcoreRegular</li>
           </thingDefs>
         </filter>
         <count>1</count>
@@ -307,6 +307,14 @@
       <li>
         <filter>
           <thingDefs>
+            <li>NanostructuringChip</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
             <li>Steel</li>
           </thingDefs>
         </filter>
@@ -353,6 +361,14 @@
     <description>Gestate an ultratech constructoid mechanoid.</description>
     <gestationCycles>3</gestationCycles>
     <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>NanostructuringChip</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
       <li>
         <filter>
           <thingDefs>
@@ -405,6 +421,14 @@
       <li>
         <filter>
           <thingDefs>
+            <li>NanostructuringChip</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
             <li>Steel</li>
           </thingDefs>
         </filter>
@@ -451,6 +475,14 @@
     <description>Gestate an ultratech agrihand mechanoid.</description>
     <gestationCycles>3</gestationCycles>
     <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>NanostructuringChip</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
       <li>
         <filter>
           <thingDefs>
@@ -503,6 +535,14 @@
       <li>
         <filter>
           <thingDefs>
+            <li>NanostructuringChip</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
             <li>Steel</li>
           </thingDefs>
         </filter>
@@ -550,6 +590,14 @@
   <researchPrerequisite>UltraMechtech</researchPrerequisite>
   <gestationCycles>3</gestationCycles>
   <ingredients Inherit="False">
+    <li>
+      <filter>
+        <thingDefs>
+          <li>NanostructuringChip</li>
+        </thingDefs>
+      </filter>
+      <count>1</count>
+    </li>
     <li>
       <filter>
         <thingDefs>
