@@ -1,5 +1,8 @@
-﻿namespace TieredMechs;
+﻿using HugsLib;
 
-public class TMSettings
+namespace TieredMechs;
+
+public class TMSettings : ModBase
 {
+    public override string ModIdentifier => "TieredMechs";
 }
