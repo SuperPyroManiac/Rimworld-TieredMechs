@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="MechGestatorBase">
+    <defName>AdvancedMechGestator</defName>
+    <label>advanced mech gestator</label>
+    <description>A tank of mechanite-rich fluid with support tubes for feeding in materials and nutrients. Upgraded AI and chemical filtering allows for much more advanced electronics to be gestated. This advanced building is only capable of generating advanced light-weight mechs.\n\nThe process is more wasteful than a standard gestator and will produce more waste.</description>
+    <graphicData>
+      <texPath>Things/Building/Production/AdvancedMechGestatorStandard</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(5.6,4)</drawSize>
+      <shadowData>
+        <volume>(3, 2, 1.9)</volume>
+      </shadowData>
+    </graphicData>
+    <uiIconPath>Things/Building/Production/AdvancedMechGestatorStandard_MenuIcon</uiIconPath>
+    <uiIconScale>1.85</uiIconScale>
+    <interactionCellOffset>(1,0,2)</interactionCellOffset>
+    <recipes>
+      <li>LifterPlus</li>
+      <li>ConstructoidPlus</li>
+      <li>AgrihandPlus</li>
+      <li>CleansweeperPlus</li>
+      <li>FabricorPlus</li>
+      <li>ParamedicPlus</li>
+      <li>LifterUltra</li>
+      <li>ConstructoidUltra</li>
+      <li>AgrihandUltra</li>
+      <li>CleansweeperUltra</li>
+      <li>FabricorUltra</li>
+      <li>ParamedicUltra</li>
+      <li>ResurrectAdvancedLightMech</li>
+    </recipes>
+    <statBases>
+      <MaxHitPoints>250</MaxHitPoints>
+      <WorkToBuild>10000</WorkToBuild>
+      <Mass>25</Mass>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <size>(3,2)</size>
+    <costList>
+      <Steel>300</Steel>
+      <ComponentSpacer>1</ComponentSpacer>
+      <Plasteel>200</Plasteel>
+      <SubcoreHigh>1</SubcoreHigh>
+    </costList>
+    <researchPrerequisites>
+      <li>HighMechtech</li>
+    </researchPrerequisites>
+    <building>
+      <barDrawData>
+        <north>
+          <preRotationOffset>(-1.135, 0.894)</preRotationOffset>
+          <size>(0.691, 0.1)</size>
+        </north>
+        <south>
+          <preRotationOffset>(-1.133, 0.83)</preRotationOffset>
+          <size>(0.736, 0.0863)</size>
+        </south>
+        <east>
+          <preRotationOffset>(1.068, -0.971)</preRotationOffset>
+          <size>(0.812, 0.09)</size>
+        </east>
+        <west>
+          <preRotationOffset>(-1.11, -0.93)</preRotationOffset>
+          <size>(0.812, 0.09)</size>
+        </west>
+      </barDrawData>
+      <formingGraphicData>
+        <texPath>Things/Pawn/Mechanoid/HalfGestatedMechSmall</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>(1,1)</drawSize>
+      </formingGraphicData>
+      <formingMechPerRotationOffset>
+        <li>(0, 0, 0.45)</li>
+        <li>(0, 0, 0.45)</li>
+        <li>(0, 0, 0.45)</li>
+        <li>(0, 0, 0.45)</li>
+      </formingMechPerRotationOffset>
+      <mechGestatorCylinderGraphic>
+        <texPath>Things/Building/Production/MechGestatorStandardGlass</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <drawSize>(5.6,4)</drawSize>
+        <shaderType>Transparent</shaderType>
+      </mechGestatorCylinderGraphic>
+      <mechGestatorTopGraphic>
+        <texPath>Things/Building/Production/MechGestatorStandardTop</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <drawSize>(5.6,4)</drawSize>
+      </mechGestatorTopGraphic>
+      <gestatorFormingMote>
+        <north>MechGestatorForming_North</north>
+        <east>MechGestatorForming_East</east>
+        <west>MechGestatorForming_East</west>
+        <south>MechGestatorForming_South</south>
+      </gestatorFormingMote>
+      <gestatorCycleCompleteMote>
+        <north>MechGestatorCycleComplete_North</north>
+        <east>MechGestatorCycleComplete_East</east>
+        <west>MechGestatorCycleComplete_East</west>
+        <south>MechGestatorCycleComplete_South</south>
+      </gestatorCycleCompleteMote>
+      <gestatorFormedMote>
+        <north>MechGestatorFormed_North</north>
+        <east>MechGestatorFormed_East</east>
+        <west>MechGestatorFormed_East</west>
+        <south>MechGestatorFormed_South</south>
+      </gestatorFormedMote>
+    </building>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>450</basePowerConsumption>
+        <idlePowerDraw>70</idlePowerDraw>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>

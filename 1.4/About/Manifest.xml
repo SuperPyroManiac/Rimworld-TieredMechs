@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest>
+    <identifier>TieredMechs</identifier>
+    <version>1.6.0</version>
+    <showCrossPromotions>true</showCrossPromotions>
+    <manifestUri>https://raw.githubusercontent.com/SuperPyroManiac/Rimworld-TieredMechs/main/About/Manifest.xml</manifestUri>
+    <downloadUri>https://github.com/SuperPyroManiac/Rimworld-TieredMechs</downloadUri>
+</Manifest>
