@@ -48,7 +48,7 @@
     <descriptionHyperlinks>
       <ThingDef>Mech_LifterPlus</ThingDef>
     </descriptionHyperlinks>
-	<researchPrerequisite>HighMechtech</researchPrerequisite>
+    <researchPrerequisite>HighMechtech</researchPrerequisite>
   </RecipeDef>
 
   <!-- AdvancedConstructoid -->
@@ -97,7 +97,7 @@
     <descriptionHyperlinks>
       <ThingDef>Mech_ConstructoidPlus</ThingDef>
     </descriptionHyperlinks>
-	<researchPrerequisite>HighMechtech</researchPrerequisite>
+    <researchPrerequisite>HighMechtech</researchPrerequisite>
   </RecipeDef>
 
   <!-- AdvancedFabricor -->
@@ -146,7 +146,7 @@
     <descriptionHyperlinks>
       <ThingDef>Mech_FabricorPlus</ThingDef>
     </descriptionHyperlinks>
-	<researchPrerequisite>HighMechtech</researchPrerequisite>
+    <researchPrerequisite>HighMechtech</researchPrerequisite>
   </RecipeDef>
 
   <!-- AdvancedAgrihand -->
@@ -195,7 +195,7 @@
     <descriptionHyperlinks>
       <ThingDef>Mech_AgrihandPlus</ThingDef>
     </descriptionHyperlinks>
-	<researchPrerequisite>HighMechtech</researchPrerequisite>
+    <researchPrerequisite>HighMechtech</researchPrerequisite>
   </RecipeDef>
 
   <!-- AdvancedCleansweeper -->
@@ -244,57 +244,112 @@
     <descriptionHyperlinks>
       <ThingDef>Mech_CleansweeperPlus</ThingDef>
     </descriptionHyperlinks>
-	<researchPrerequisite>HighMechtech</researchPrerequisite>
+    <researchPrerequisite>HighMechtech</researchPrerequisite>
   </RecipeDef>
-  
+
   <!-- AdvancedParamedic -->
   <RecipeDef ParentName="LightMechanoidRecipe">
-  <defName>ParamedicPlus</defName>
-  <label>gestate advanced paramedic</label>
-  <description>Gestate an advanced paramedic mechanoid.</description>
-  <researchPrerequisite>HighMechtech</researchPrerequisite>
-  <gestationCycles>2</gestationCycles>
-  <ingredients Inherit="False">
-    <li>
-      <filter>
-        <thingDefs>
-          <li>Steel</li>
-        </thingDefs>
-      </filter>
-      <count>100</count>
-    </li>
-    <li>
-    <filter>
-      <thingDefs>
-        <li>Plasteel</li>
-      </thingDefs>
-    </filter>
-    <count>70</count>
-  </li>
-  <li>
-    <filter>
-      <thingDefs>
-        <li>ComponentSpacer</li>
-      </thingDefs>
-    </filter>
-    <count>1</count>
-  </li>
-    <li>
-      <filter>
-        <thingDefs>
-          <li>SubcoreHigh</li>
-        </thingDefs>
-      </filter>
-      <count>1</count>
-    </li>
-  </ingredients>
-  <products>
-    <Mech_ParamedicPlus>1</Mech_ParamedicPlus>
-  </products>
-  <descriptionHyperlinks>
-    <ThingDef>Mech_ParamedicPlus</ThingDef>
-  </descriptionHyperlinks>
-</RecipeDef>
+    <defName>ParamedicPlus</defName>
+    <label>gestate advanced paramedic</label>
+    <description>Gestate an advanced paramedic mechanoid.</description>
+    <researchPrerequisite>HighMechtech</researchPrerequisite>
+    <gestationCycles>2</gestationCycles>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>100</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>70</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SubcoreHigh</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Mech_ParamedicPlus>1</Mech_ParamedicPlus>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>Mech_ParamedicPlus</ThingDef>
+    </descriptionHyperlinks>
+  </RecipeDef>
+
+  <RecipeDef ParentName="HeavyMechanoidRecipe">
+    <defName>TunnelerPlus</defName>
+    <label>gestate advanced tunneler</label>
+    <description>Gestate an advanced tunneler mechanoid.</description>
+    <researchPrerequisite>StandardMechtech</researchPrerequisite>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>350</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>105</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>6</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SubcoreHigh</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Mech_Tunneler>1</Mech_Tunneler>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>Mech_TunnelerPlus</ThingDef>
+    </descriptionHyperlinks>
+  </RecipeDef>
 
   <!--               Ultra Tier               -->
   <!-- UltraLifter -->
@@ -351,7 +406,7 @@
     <descriptionHyperlinks>
       <ThingDef>Mech_LifterUltra</ThingDef>
     </descriptionHyperlinks>
-	<researchPrerequisite>UltraMechtech</researchPrerequisite>
+    <researchPrerequisite>UltraMechtech</researchPrerequisite>
   </RecipeDef>
 
   <!-- UltraConstructoid -->
@@ -408,7 +463,7 @@
     <descriptionHyperlinks>
       <ThingDef>Mech_ConstructoidUltra</ThingDef>
     </descriptionHyperlinks>
-	<researchPrerequisite>UltraMechtech</researchPrerequisite>
+    <researchPrerequisite>UltraMechtech</researchPrerequisite>
   </RecipeDef>
 
   <!-- UltraFabricor -->
@@ -465,7 +520,7 @@
     <descriptionHyperlinks>
       <ThingDef>Mech_FabricorUltra</ThingDef>
     </descriptionHyperlinks>
-	<researchPrerequisite>UltraMechtech</researchPrerequisite>
+    <researchPrerequisite>UltraMechtech</researchPrerequisite>
   </RecipeDef>
 
   <!-- UltraAgrihand -->
@@ -522,7 +577,7 @@
     <descriptionHyperlinks>
       <ThingDef>Mech_AgrihandUltra</ThingDef>
     </descriptionHyperlinks>
-	<researchPrerequisite>UltraMechtech</researchPrerequisite>
+    <researchPrerequisite>UltraMechtech</researchPrerequisite>
   </RecipeDef>
 
   <!-- UltraCleansweeper -->
@@ -579,64 +634,119 @@
     <descriptionHyperlinks>
       <ThingDef>Mech_CleansweeperUltra</ThingDef>
     </descriptionHyperlinks>
-	<researchPrerequisite>UltraMechtech</researchPrerequisite>
+    <researchPrerequisite>UltraMechtech</researchPrerequisite>
   </RecipeDef>
-  
+
   <!-- UltraParamedic -->
   <RecipeDef ParentName="LightMechanoidRecipe">
-  <defName>ParamedicUltra</defName>
-  <label>gestate ultratech paramedic</label>
-  <description>Gestate an ultratech paramedic mechanoid.</description>
-  <researchPrerequisite>UltraMechtech</researchPrerequisite>
-  <gestationCycles>3</gestationCycles>
-  <ingredients Inherit="False">
-    <li>
-      <filter>
-        <thingDefs>
-          <li>NanostructuringChip</li>
-        </thingDefs>
-      </filter>
-      <count>1</count>
-    </li>
-    <li>
-      <filter>
-        <thingDefs>
-          <li>Steel</li>
-        </thingDefs>
-      </filter>
-      <count>300</count>
-    </li>
-    <li>
-    <filter>
-      <thingDefs>
-        <li>Plasteel</li>
-      </thingDefs>
-    </filter>
-    <count>350</count>
-  </li>
-  <li>
-    <filter>
-      <thingDefs>
-        <li>ComponentSpacer</li>
-      </thingDefs>
-    </filter>
-    <count>4</count>
-  </li>
-    <li>
-      <filter>
-        <thingDefs>
-          <li>SubcoreHigh</li>
-        </thingDefs>
-      </filter>
-      <count>1</count>
-    </li>
-  </ingredients>
-  <products>
-    <Mech_ParamedicUltra>1</Mech_ParamedicUltra>
-  </products>
-  <descriptionHyperlinks>
-    <ThingDef>Mech_ParamedicUltra</ThingDef>
-  </descriptionHyperlinks>
-</RecipeDef>
+    <defName>ParamedicUltra</defName>
+    <label>gestate ultratech paramedic</label>
+    <description>Gestate an ultratech paramedic mechanoid.</description>
+    <researchPrerequisite>UltraMechtech</researchPrerequisite>
+    <gestationCycles>3</gestationCycles>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>NanostructuringChip</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>300</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>350</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SubcoreHigh</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Mech_ParamedicUltra>1</Mech_ParamedicUltra>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>Mech_ParamedicUltra</ThingDef>
+    </descriptionHyperlinks>
+  </RecipeDef>
+
+    <RecipeDef ParentName="HeavyMechanoidRecipe">
+    <defName>TunnelerUltra</defName>
+    <label>gestate ultratech tunneler</label>
+    <description>Gestate an ultratech tunneler mechanoid.</description>
+    <researchPrerequisite>StandardMechtech</researchPrerequisite>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>395</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>380</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>11</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SubcoreHigh</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Mech_Tunneler>1</Mech_Tunneler>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>Mech_TunnelerUltra</ThingDef>
+    </descriptionHyperlinks>
+  </RecipeDef>
 
 </Defs>

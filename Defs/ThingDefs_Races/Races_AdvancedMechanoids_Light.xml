@@ -1,420 +1,463 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <!-- AdvancedLifter -->
-    <ThingDef ParentName="LightMechanoid">
-      <defName>Mech_LifterPlus</defName>
-      <label>advanced lifter</label>
-      <description>An upgraded small advanced mechanoid designed for hauling.</description>
-      <statBases>
-        <MoveSpeed>4.5</MoveSpeed>
-        <CarryingCapacity>450</CarryingCapacity>
-        <WorkSpeedGlobal>1</WorkSpeedGlobal>
-      </statBases>
-      <race>
-        <mechEnabledWorkTypes>
-          <li>Hauling</li>
-        </mechEnabledWorkTypes>
-        <lifeStageAges>
-          <li>
-            <def>MechanoidFullyFormed</def>
-            <minAge>0</minAge>
-            <soundWounded>Pawn_Mech_Lifter_Wounded</soundWounded>
-            <soundDeath>Pawn_Mech_Lifter_Death</soundDeath>
-            <soundCall>Pawn_Mech_Lifter_Call</soundCall>
-          </li>
-          <li>
-            <def>MechanoidFullyFormed</def>
-            <minAge>100</minAge>
-            <soundWounded>Pawn_Mech_Lifter_Wounded</soundWounded>
-            <soundDeath>Pawn_Mech_Lifter_Death</soundDeath>
-            <soundCall>Pawn_Mech_Lifter_Call</soundCall>
-          </li>
-        </lifeStageAges>
-      </race>
-    </ThingDef>
+  <!-- AdvancedLifter -->
+  <ThingDef ParentName="LightMechanoid">
+    <defName>Mech_LifterPlus</defName>
+    <label>advanced lifter</label>
+    <description>An upgraded small advanced mechanoid designed for hauling.</description>
+    <statBases>
+      <MoveSpeed>4.5</MoveSpeed>
+      <CarryingCapacity>450</CarryingCapacity>
+      <WorkSpeedGlobal>1</WorkSpeedGlobal>
+    </statBases>
+    <race>
+      <mechEnabledWorkTypes>
+        <li>Hauling</li>
+      </mechEnabledWorkTypes>
+      <lifeStageAges>
+        <li>
+          <def>MechanoidFullyFormed</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Mech_Lifter_Wounded</soundWounded>
+          <soundDeath>Pawn_Mech_Lifter_Death</soundDeath>
+          <soundCall>Pawn_Mech_Lifter_Call</soundCall>
+        </li>
+        <li>
+          <def>MechanoidFullyFormed</def>
+          <minAge>100</minAge>
+          <soundWounded>Pawn_Mech_Lifter_Wounded</soundWounded>
+          <soundDeath>Pawn_Mech_Lifter_Death</soundDeath>
+          <soundCall>Pawn_Mech_Lifter_Call</soundCall>
+        </li>
+      </lifeStageAges>
+    </race>
+  </ThingDef>
 
-    <PawnKindDef ParentName="NonCombatLightMechanoidKind">
-      <defName>Mech_LifterPlus</defName>
-      <label>advanced lifter</label>
-      <race>Mech_LifterPlus</race>
-      <lifeStages>
-        <li>
-          <bodyGraphicData>
-            <texPath>Things/Pawn/Mechanoid/Lifter</texPath>
-            <maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/Mech_Liftman</maskPath>
-            <shaderType>CutoutWithOverlay</shaderType>
-            <graphicClass>Graphic_Multi</graphicClass>
-            <drawSize>1.1</drawSize>
-          </bodyGraphicData>
-        </li>
-        <li>
-          <bodyGraphicData>
-            <texPath>Things/Pawn/Mechanoid/LifterAncient</texPath>
-            <maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/Mech_Liftman</maskPath>
-            <shaderType>CutoutWithOverlay</shaderType>
-            <graphicClass>Graphic_Multi</graphicClass>
-            <drawSize>1.1</drawSize>
-          </bodyGraphicData>
-        </li>
-      </lifeStages>
-    </PawnKindDef>
+  <PawnKindDef ParentName="NonCombatLightMechanoidKind">
+    <defName>Mech_LifterPlus</defName>
+    <label>advanced lifter</label>
+    <race>Mech_LifterPlus</race>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Mechanoid/Lifter</texPath>
+          <maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/Mech_Liftman</maskPath>
+          <shaderType>CutoutWithOverlay</shaderType>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.1</drawSize>
+        </bodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Mechanoid/LifterAncient</texPath>
+          <maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/Mech_Liftman</maskPath>
+          <shaderType>CutoutWithOverlay</shaderType>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.1</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
 
-    <!-- AdvancedConstructoid -->
-    <ThingDef ParentName="LightMechanoid">
-      <defName>Mech_ConstructoidPlus</defName>
-      <label>advanced constructoid</label>
-      <description>An upgraded small advanced mechanoid designed to perform construction tasks.</description>
-      <statBases>
-        <ConstructionSpeed>1.6</ConstructionSpeed>
-        <MoveSpeed>4.5</MoveSpeed>
-        <CarryingCapacity>150</CarryingCapacity>
-        <WorkSpeedGlobal>1.5</WorkSpeedGlobal>
-      </statBases>
-      <race>
-        <mechEnabledWorkTypes>
-          <li>Construction</li>
-        </mechEnabledWorkTypes>
-        <mechFixedSkillLevel>16</mechFixedSkillLevel>
-        <lifeStageAges>
-          <li>
-            <def>MechanoidFullyFormed</def>
-            <minAge>0</minAge>
-            <soundWounded>Pawn_Mech_Constructoid_Wounded</soundWounded>
-            <soundDeath>Pawn_Mech_Constructoid_Death</soundDeath>
-            <soundCall>Pawn_Mech_Constructoid_Call</soundCall>
-          </li>
-          <li>
-            <def>MechanoidFullyFormed</def>
-            <minAge>100</minAge>
-            <soundWounded>Pawn_Mech_Constructoid_Wounded</soundWounded>
-            <soundDeath>Pawn_Mech_Constructoid_Death</soundDeath>
-            <soundCall>Pawn_Mech_Constructoid_Call</soundCall>
-          </li>
-        </lifeStageAges>
-      </race>
-      <tools>
+  <!-- AdvancedConstructoid -->
+  <ThingDef ParentName="LightMechanoid">
+    <defName>Mech_ConstructoidPlus</defName>
+    <label>advanced constructoid</label>
+    <description>An upgraded small advanced mechanoid designed to perform construction tasks.</description>
+    <statBases>
+      <ConstructionSpeed>1.6</ConstructionSpeed>
+      <MoveSpeed>4.5</MoveSpeed>
+      <CarryingCapacity>150</CarryingCapacity>
+      <WorkSpeedGlobal>1.5</WorkSpeedGlobal>
+    </statBases>
+    <race>
+      <mechEnabledWorkTypes>
+        <li>Construction</li>
+      </mechEnabledWorkTypes>
+      <mechFixedSkillLevel>16</mechFixedSkillLevel>
+      <lifeStageAges>
         <li>
-          <label>torso</label>
-          <capacities>
-            <li>Blunt</li>
-          </capacities>
-          <power>15</power>
-          <cooldownTime>2.9</cooldownTime>
-          <linkedBodyPartsGroup>Torso</linkedBodyPartsGroup>
-          <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+          <def>MechanoidFullyFormed</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Mech_Constructoid_Wounded</soundWounded>
+          <soundDeath>Pawn_Mech_Constructoid_Death</soundDeath>
+          <soundCall>Pawn_Mech_Constructoid_Call</soundCall>
         </li>
-      </tools>
-    </ThingDef>
+        <li>
+          <def>MechanoidFullyFormed</def>
+          <minAge>100</minAge>
+          <soundWounded>Pawn_Mech_Constructoid_Wounded</soundWounded>
+          <soundDeath>Pawn_Mech_Constructoid_Death</soundDeath>
+          <soundCall>Pawn_Mech_Constructoid_Call</soundCall>
+        </li>
+      </lifeStageAges>
+    </race>
+    <tools>
+      <li>
+        <label>torso</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>2.9</cooldownTime>
+        <linkedBodyPartsGroup>Torso</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+      </li>
+    </tools>
+  </ThingDef>
 
-    <PawnKindDef ParentName="NonCombatLightMechanoidKind">
-      <defName>Mech_ConstructoidPlus</defName>
-      <label>advanced constructoid</label>
-      <race>Mech_ConstructoidPlus</race>
-      <lifeStages>
-        <li>
-          <bodyGraphicData>
-            <texPath>Things/Pawn/Mechanoid/Constructoid</texPath>
-            <maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/Mech_Constructoid</maskPath>
-            <shaderType>CutoutWithOverlay</shaderType>
-            <graphicClass>Graphic_Multi</graphicClass>
-            <drawSize>1.1</drawSize>
-          </bodyGraphicData>
-        </li>
-        <li>
-          <bodyGraphicData>
-            <texPath>Things/Pawn/Mechanoid/ConstructoidAncient</texPath>
-            <maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/Mech_Constructoid</maskPath>
-            <shaderType>CutoutWithOverlay</shaderType>
-            <graphicClass>Graphic_Multi</graphicClass>
-            <drawSize>1.1</drawSize>
-          </bodyGraphicData>
-        </li>
-      </lifeStages>
-      <weaponTags>
-        <li>MechanoidGunSlugthrower</li>
-      </weaponTags>
-    </PawnKindDef>
+  <PawnKindDef ParentName="NonCombatLightMechanoidKind">
+    <defName>Mech_ConstructoidPlus</defName>
+    <label>advanced constructoid</label>
+    <race>Mech_ConstructoidPlus</race>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Mechanoid/Constructoid</texPath>
+          <maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/Mech_Constructoid</maskPath>
+          <shaderType>CutoutWithOverlay</shaderType>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.1</drawSize>
+        </bodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Mechanoid/ConstructoidAncient</texPath>
+          <maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/Mech_Constructoid</maskPath>
+          <shaderType>CutoutWithOverlay</shaderType>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.1</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+    <weaponTags>
+      <li>MechanoidGunSlugthrower</li>
+    </weaponTags>
+  </PawnKindDef>
 
-    <!-- AdvancedFabricor -->
-    <ThingDef ParentName="LightMechanoid">
-      <defName>Mech_FabricorPlus</defName>
-      <label>advanced fabricor</label>
-      <description>A small advanced work mechanoid designed to craft all manner of manufactured objects.</description>
-      <statBases>
-        <FoodPoisonChance>0.0</FoodPoisonChance>
-        <MoveSpeed>4.5</MoveSpeed>
-        <CarryingCapacity>150</CarryingCapacity>
-        <WorkSpeedGlobal>1.5</WorkSpeedGlobal>
-      </statBases>
-      <race>
-        <mechEnabledWorkTypes>
-          <li>Crafting</li>
-          <li>Smithing</li>
-          <li>Tailoring</li>
-          <li>Cooking</li>
-        </mechEnabledWorkTypes>
-        <mechFixedSkillLevel>16</mechFixedSkillLevel>
-        <lifeStageAges>
-          <li>
-            <def>MechanoidFullyFormed</def>
-            <minAge>0</minAge>
-            <soundWounded>Pawn_Mech_Fabricor_Wounded</soundWounded>
-            <soundDeath>Pawn_Mech_Fabricor_Death</soundDeath>
-            <soundCall>Pawn_Mech_Fabricor_Call</soundCall>
-          </li>
-          <li>
-            <def>MechanoidFullyFormed</def>
-            <minAge>100</minAge>
-            <soundWounded>Pawn_Mech_Fabricor_Wounded</soundWounded>
-            <soundDeath>Pawn_Mech_Fabricor_Death</soundDeath>
-            <soundCall>Pawn_Mech_Fabricor_Call</soundCall>
-          </li>
-        </lifeStageAges>
-      </race>
-    </ThingDef>
+  <!-- AdvancedFabricor -->
+  <ThingDef ParentName="LightMechanoid">
+    <defName>Mech_FabricorPlus</defName>
+    <label>advanced fabricor</label>
+    <description>A small advanced work mechanoid designed to craft all manner of manufactured objects.</description>
+    <statBases>
+      <FoodPoisonChance>0.0</FoodPoisonChance>
+      <MoveSpeed>4.5</MoveSpeed>
+      <CarryingCapacity>150</CarryingCapacity>
+      <WorkSpeedGlobal>1.5</WorkSpeedGlobal>
+    </statBases>
+    <race>
+      <mechEnabledWorkTypes>
+        <li>Crafting</li>
+        <li>Smithing</li>
+        <li>Tailoring</li>
+        <li>Cooking</li>
+      </mechEnabledWorkTypes>
+      <mechFixedSkillLevel>16</mechFixedSkillLevel>
+      <lifeStageAges>
+        <li>
+          <def>MechanoidFullyFormed</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Mech_Fabricor_Wounded</soundWounded>
+          <soundDeath>Pawn_Mech_Fabricor_Death</soundDeath>
+          <soundCall>Pawn_Mech_Fabricor_Call</soundCall>
+        </li>
+        <li>
+          <def>MechanoidFullyFormed</def>
+          <minAge>100</minAge>
+          <soundWounded>Pawn_Mech_Fabricor_Wounded</soundWounded>
+          <soundDeath>Pawn_Mech_Fabricor_Death</soundDeath>
+          <soundCall>Pawn_Mech_Fabricor_Call</soundCall>
+        </li>
+      </lifeStageAges>
+    </race>
+  </ThingDef>
 
-    <PawnKindDef ParentName="NonCombatLightMechanoidKind">
-      <defName>Mech_FabricorPlus</defName>
-      <label>advanced fabricor</label>
-      <race>Mech_FabricorPlus</race>
-      <lifeStages>
-        <li>
-          <bodyGraphicData>
-            <texPath>Things/Pawn/Mechanoid/Fabricor</texPath>
-            <maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/Mech_Fabricor</maskPath>
-            <shaderType>CutoutWithOverlay</shaderType>
-            <graphicClass>Graphic_Multi</graphicClass>
-            <drawSize>1.1</drawSize>
-          </bodyGraphicData>
-        </li>
-        <li>
-          <bodyGraphicData>
-            <texPath>Things/Pawn/Mechanoid/FabricorAncient</texPath>
-            <maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/Mech_Fabricor</maskPath>
-            <shaderType>CutoutWithOverlay</shaderType>
-            <graphicClass>Graphic_Multi</graphicClass>
-            <drawSize>1.1</drawSize>
-          </bodyGraphicData>
-        </li>
-      </lifeStages>
-      <weaponTags>
-        <li>MechanoidGunSlugthrower</li>
-      </weaponTags>
-    </PawnKindDef>
+  <PawnKindDef ParentName="NonCombatLightMechanoidKind">
+    <defName>Mech_FabricorPlus</defName>
+    <label>advanced fabricor</label>
+    <race>Mech_FabricorPlus</race>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Mechanoid/Fabricor</texPath>
+          <maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/Mech_Fabricor</maskPath>
+          <shaderType>CutoutWithOverlay</shaderType>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.1</drawSize>
+        </bodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Mechanoid/FabricorAncient</texPath>
+          <maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/Mech_Fabricor</maskPath>
+          <shaderType>CutoutWithOverlay</shaderType>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.1</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+    <weaponTags>
+      <li>MechanoidGunSlugthrower</li>
+    </weaponTags>
+  </PawnKindDef>
 
-    <!-- AdvancedAgrihand -->
-    <ThingDef ParentName="LightMechanoid">
-      <defName>Mech_AgrihandPlus</defName>
-      <label>advanced agrihand</label>
-      <description>A small advanced mechanoid designed to sow and harvest crops.</description>
-      <tools>
+  <!-- AdvancedAgrihand -->
+  <ThingDef ParentName="LightMechanoid">
+    <defName>Mech_AgrihandPlus</defName>
+    <label>advanced agrihand</label>
+    <description>A small advanced mechanoid designed to sow and harvest crops.</description>
+    <tools>
+      <li>
+        <label>right blade</label>
+        <capacities>
+          <li>Cut</li>
+          <li>Stab</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>RightBlade</linkedBodyPartsGroup>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+      </li>
+    </tools>
+    <statBases>
+      <PlantWorkSpeed>2.0</PlantWorkSpeed>
+      <MoveSpeed>5.5</MoveSpeed>
+      <CarryingCapacity>150</CarryingCapacity>
+      <WorkSpeedGlobal>2</WorkSpeedGlobal>
+    </statBases>
+    <race>
+      <body>Mech_Agrihand</body>
+      <mechEnabledWorkTypes>
+        <li>PlantCutting</li>
+        <li>Growing</li>
+      </mechEnabledWorkTypes>
+      <mechFixedSkillLevel>16</mechFixedSkillLevel>
+      <mechWorkTypePriorities>
+        <PlantCutting>2</PlantCutting>
+      </mechWorkTypePriorities>
+      <lifeStageAges>
         <li>
-          <label>right blade</label>
-          <capacities>
-            <li>Cut</li>
-            <li>Stab</li>
-          </capacities>
-          <power>8</power>
-          <cooldownTime>2</cooldownTime>
-          <linkedBodyPartsGroup>RightBlade</linkedBodyPartsGroup>
-          <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+          <def>MechanoidFullyFormed</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Mech_Agrihand_Wounded</soundWounded>
+          <soundDeath>Pawn_Mech_Agrihand_Death</soundDeath>
+          <soundCall>Pawn_Mech_Agrihand_Call</soundCall>
         </li>
-      </tools>
-      <statBases>
-        <PlantWorkSpeed>2.0</PlantWorkSpeed>
-        <MoveSpeed>5.5</MoveSpeed>
-        <CarryingCapacity>150</CarryingCapacity>
-        <WorkSpeedGlobal>2</WorkSpeedGlobal>
-      </statBases>
-      <race>
-        <body>Mech_Agrihand</body>
-        <mechEnabledWorkTypes>
-          <li>PlantCutting</li>
-          <li>Growing</li>
-        </mechEnabledWorkTypes>
-        <mechFixedSkillLevel>16</mechFixedSkillLevel>
-        <mechWorkTypePriorities>
-          <PlantCutting>2</PlantCutting>
-        </mechWorkTypePriorities>
-        <lifeStageAges>
-          <li>
-            <def>MechanoidFullyFormed</def>
-            <minAge>0</minAge>
-            <soundWounded>Pawn_Mech_Agrihand_Wounded</soundWounded>
-            <soundDeath>Pawn_Mech_Agrihand_Death</soundDeath>
-            <soundCall>Pawn_Mech_Agrihand_Call</soundCall>
-          </li>
-          <li>
-            <def>MechanoidFullyFormed</def>
-            <minAge>100</minAge>
-            <soundWounded>Pawn_Mech_Agrihand_Wounded</soundWounded>
-            <soundDeath>Pawn_Mech_Agrihand_Death</soundDeath>
-            <soundCall>Pawn_Mech_Agrihand_Call</soundCall>
-          </li>
-        </lifeStageAges>
-      </race>
-    </ThingDef>
+        <li>
+          <def>MechanoidFullyFormed</def>
+          <minAge>100</minAge>
+          <soundWounded>Pawn_Mech_Agrihand_Wounded</soundWounded>
+          <soundDeath>Pawn_Mech_Agrihand_Death</soundDeath>
+          <soundCall>Pawn_Mech_Agrihand_Call</soundCall>
+        </li>
+      </lifeStageAges>
+    </race>
+  </ThingDef>
 
-    <PawnKindDef ParentName="NonCombatLightMechanoidKind">
-      <defName>Mech_AgrihandPlus</defName>
-      <label>advanced agrihand</label>
-      <race>Mech_AgrihandPlus</race>
-      <lifeStages>
-        <li>
-          <bodyGraphicData>
-            <texPath>Things/Pawn/Mechanoid/Agrihand</texPath>
-            <maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/Mech_Agrihand</maskPath>
-            <shaderType>CutoutWithOverlay</shaderType>
-            <graphicClass>Graphic_Multi</graphicClass>
-            <drawSize>1.1</drawSize>
-          </bodyGraphicData>
-        </li>
-        <li>
-          <bodyGraphicData>
-            <texPath>Things/Pawn/Mechanoid/AgrihandAncient</texPath>
-            <maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/Mech_Agrihand</maskPath>
-            <shaderType>CutoutWithOverlay</shaderType>
-            <graphicClass>Graphic_Multi</graphicClass>
-            <drawSize>1.1</drawSize>
-          </bodyGraphicData>
-        </li>
-      </lifeStages>
-    </PawnKindDef>
+  <PawnKindDef ParentName="NonCombatLightMechanoidKind">
+    <defName>Mech_AgrihandPlus</defName>
+    <label>advanced agrihand</label>
+    <race>Mech_AgrihandPlus</race>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Mechanoid/Agrihand</texPath>
+          <maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/Mech_Agrihand</maskPath>
+          <shaderType>CutoutWithOverlay</shaderType>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.1</drawSize>
+        </bodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Mechanoid/AgrihandAncient</texPath>
+          <maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/Mech_Agrihand</maskPath>
+          <shaderType>CutoutWithOverlay</shaderType>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.1</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
 
-    <!-- AdvancedCleansweeper -->
-    <ThingDef ParentName="LightMechanoid">
-      <defName>Mech_CleansweeperPlus</defName>
-      <label>advanced cleansweeper</label>
-      <description>A light advanced mechanoid designed for cleaning.</description>
-      <statBases>
-        <CleaningSpeed>1.0</CleaningSpeed>
-        <MoveSpeed>5.5</MoveSpeed>
-        <CarryingCapacity>150</CarryingCapacity>
-        <WorkSpeedGlobal>1.5</WorkSpeedGlobal>
-      </statBases>
-      <race>
-        <mechEnabledWorkTypes>
-          <li>Cleaning</li>
-        </mechEnabledWorkTypes>
-        <mechFixedSkillLevel>16</mechFixedSkillLevel>
-        <lifeStageAges>
-          <li>
-            <def>MechanoidFullyFormed</def>
-            <minAge>0</minAge>
-            <soundWounded>Pawn_Mech_Cleansweeper_Wounded</soundWounded>
-            <soundDeath>Pawn_Mech_Cleansweeper_Death</soundDeath>
-            <soundCall>Pawn_Mech_Cleansweeper_Call</soundCall>
-          </li>
-          <li>
-            <def>MechanoidFullyFormed</def>
-            <minAge>0</minAge>
-            <soundWounded>Pawn_Mech_Cleansweeper_Wounded</soundWounded>
-            <soundDeath>Pawn_Mech_Cleansweeper_Death</soundDeath>
-            <soundCall>Pawn_Mech_Cleansweeper_Call</soundCall>
-          </li>
-        </lifeStageAges>
-        <baseBodySize>0.3</baseBodySize>
-      </race>
-    </ThingDef>
+  <!-- AdvancedCleansweeper -->
+  <ThingDef ParentName="LightMechanoid">
+    <defName>Mech_CleansweeperPlus</defName>
+    <label>advanced cleansweeper</label>
+    <description>A light advanced mechanoid designed for cleaning.</description>
+    <statBases>
+      <CleaningSpeed>1.0</CleaningSpeed>
+      <MoveSpeed>5.5</MoveSpeed>
+      <CarryingCapacity>150</CarryingCapacity>
+      <WorkSpeedGlobal>1.5</WorkSpeedGlobal>
+    </statBases>
+    <race>
+      <mechEnabledWorkTypes>
+        <li>Cleaning</li>
+      </mechEnabledWorkTypes>
+      <mechFixedSkillLevel>16</mechFixedSkillLevel>
+      <lifeStageAges>
+        <li>
+          <def>MechanoidFullyFormed</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Mech_Cleansweeper_Wounded</soundWounded>
+          <soundDeath>Pawn_Mech_Cleansweeper_Death</soundDeath>
+          <soundCall>Pawn_Mech_Cleansweeper_Call</soundCall>
+        </li>
+        <li>
+          <def>MechanoidFullyFormed</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Mech_Cleansweeper_Wounded</soundWounded>
+          <soundDeath>Pawn_Mech_Cleansweeper_Death</soundDeath>
+          <soundCall>Pawn_Mech_Cleansweeper_Call</soundCall>
+        </li>
+      </lifeStageAges>
+      <baseBodySize>0.3</baseBodySize>
+    </race>
+  </ThingDef>
 
-    <PawnKindDef ParentName="NonCombatLightMechanoidKind">
-      <defName>Mech_CleansweeperPlus</defName>
-      <label>advanced cleansweeper</label>
-      <race>Mech_CleansweeperPlus</race>
-      <lifeStages>
+  <PawnKindDef ParentName="NonCombatLightMechanoidKind">
+    <defName>Mech_CleansweeperPlus</defName>
+    <label>advanced cleansweeper</label>
+    <race>Mech_CleansweeperPlus</race>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Mechanoid/Cleansweeper</texPath>
+          <maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/Mech_Cleansweeper</maskPath>
+          <shaderType>CutoutWithOverlay</shaderType>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.1</drawSize>
+        </bodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Mechanoid/CleansweeperAncient</texPath>
+          <maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/Mech_Cleansweeper</maskPath>
+          <shaderType>CutoutWithOverlay</shaderType>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.1</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+  <!-- AdvancedParamedic -->
+  <ThingDef ParentName="LightMechanoid">
+    <defName>Mech_ParamedicPlus</defName>
+    <label>advanced paramedic</label>
+    <description>A small advanced mechanoid designed for non-violent emergency situation management and medical care. (Includes putting out fires.)</description>
+    <statBases>
+      <MoveSpeed>7.0</MoveSpeed>
+      <WorkSpeedGlobal>2.0</WorkSpeedGlobal>
+    </statBases>
+    <race>
+      <mechEnabledWorkTypes>
+        <li>Doctor</li>
+        <li>Firefighter</li>
+      </mechEnabledWorkTypes>
+      <mechFixedSkillLevel>16</mechFixedSkillLevel>
+      <lifeStageAges>
         <li>
-          <bodyGraphicData>
-            <texPath>Things/Pawn/Mechanoid/Cleansweeper</texPath>
-            <maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/Mech_Cleansweeper</maskPath>
-            <shaderType>CutoutWithOverlay</shaderType>
-            <graphicClass>Graphic_Multi</graphicClass>
-            <drawSize>1.1</drawSize>
-          </bodyGraphicData>
+          <def>MechanoidFullyFormed</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Mech_Paramedic_Wounded</soundWounded>
+          <soundDeath>Pawn_Mech_Paramedic_Death</soundDeath>
+          <soundCall>Pawn_Mech_Paramedic_Call</soundCall>
         </li>
         <li>
-          <bodyGraphicData>
-            <texPath>Things/Pawn/Mechanoid/CleansweeperAncient</texPath>
-            <maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/Mech_Cleansweeper</maskPath>
-            <shaderType>CutoutWithOverlay</shaderType>
-            <graphicClass>Graphic_Multi</graphicClass>
-            <drawSize>1.1</drawSize>
-          </bodyGraphicData>
+          <def>MechanoidFullyFormed</def>
+          <minAge>100</minAge>
+          <soundWounded>Pawn_Mech_Paramedic_Wounded</soundWounded>
+          <soundDeath>Pawn_Mech_Paramedic_Death</soundDeath>
+          <soundCall>Pawn_Mech_Paramedic_Call</soundCall>
         </li>
-      </lifeStages>
-    </PawnKindDef>
-    
-    <!-- AdvancedParamedic -->    
-    <ThingDef ParentName="LightMechanoid">
-      <defName>Mech_ParamedicPlus</defName>
-      <label>advanced paramedic</label>
-      <description>A small advanced mechanoid designed for non-violent emergency situation management and medical care. (Includes putting out fires.)</description>
-      <statBases>
-        <MoveSpeed>7.0</MoveSpeed>
-        <WorkSpeedGlobal>2.0</WorkSpeedGlobal>
-      </statBases>
-      <race>
-        <mechEnabledWorkTypes>
-          <li>Doctor</li>
-          <li>Firefighter</li>
-        </mechEnabledWorkTypes>
-        <mechFixedSkillLevel>16</mechFixedSkillLevel>
-        <lifeStageAges>
-          <li>
-            <def>MechanoidFullyFormed</def>
-            <minAge>0</minAge>
-            <soundWounded>Pawn_Mech_Paramedic_Wounded</soundWounded>
-            <soundDeath>Pawn_Mech_Paramedic_Death</soundDeath>
-            <soundCall>Pawn_Mech_Paramedic_Call</soundCall>
-          </li>
-          <li>
-            <def>MechanoidFullyFormed</def>
-            <minAge>100</minAge>
-            <soundWounded>Pawn_Mech_Paramedic_Wounded</soundWounded>
-            <soundDeath>Pawn_Mech_Paramedic_Death</soundDeath>
-            <soundCall>Pawn_Mech_Paramedic_Call</soundCall>
-          </li>
-        </lifeStageAges>
-      </race>
-    </ThingDef>
-  
-    <PawnKindDef ParentName="LightMechanoidKind">
-      <defName>Mech_ParamedicPlus</defName>
-      <label>advanced paramedic</label>
-      <race>Mech_ParamedicPlus</race>
-      <allowInMechClusters>false</allowInMechClusters>
-      <lifeStages>
+      </lifeStageAges>
+    </race>
+  </ThingDef>
+
+  <PawnKindDef ParentName="LightMechanoidKind">
+    <defName>Mech_ParamedicPlus</defName>
+    <label>advanced paramedic</label>
+    <race>Mech_ParamedicPlus</race>
+    <allowInMechClusters>false</allowInMechClusters>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Mechanoid/Paramedic</texPath>
+          <maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/Mech_Paramedic</maskPath>
+          <shaderType>CutoutWithOverlay</shaderType>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.25</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.4, 0.3)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Mechanoid/ParamedicAncient</texPath>
+          <maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/Mech_Paramedic</maskPath>
+          <shaderType>CutoutWithOverlay</shaderType>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.25</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.4, 0.3)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+    <abilities>
+      <li>FirefoampopMech</li>
+      <li>LongjumpMechLauncher</li>
+    </abilities>
+  </PawnKindDef>
+
+  <!-- AdvancedTunneler -->
+  <ThingDef ParentName="HeavyMechanoid">
+    <defName>Mech_TunnelerPlus</defName>
+    <label>advanced tunneler</label>
+    <description>An upgraded heavy mechanoid built for mining in treacherous locations. While intended for excavation, the tunneler's gigantic power claws and ultra-thick armor makes it a dangerous force in combat.</description>
+    <statBases>
+      <MoveSpeed>3</MoveSpeed>
+      <WorkSpeedGlobal>2.6</WorkSpeedGlobal>
+    </statBases>
+    <race>
+      <mechEnabledWorkTypes>
+        <li>Mining</li>
+      </mechEnabledWorkTypes>
+      <mechFixedSkillLevel>16</mechFixedSkillLevel>
+      <lifeStageAges>
         <li>
-          <bodyGraphicData>
-            <texPath>Things/Pawn/Mechanoid/Paramedic</texPath>
-            <maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/Mech_Paramedic</maskPath>
-            <shaderType>CutoutWithOverlay</shaderType>
-            <graphicClass>Graphic_Multi</graphicClass>
-            <drawSize>1.25</drawSize>
-            <shadowData>
-              <volume>(0.3, 0.4, 0.3)</volume>
-              <offset>(0,0,-0.25)</offset>
-            </shadowData>
-          </bodyGraphicData>
+          <def>MechanoidFullyFormed</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Mech_Tunneler_Wounded</soundWounded>
+          <soundDeath>Pawn_Mech_Tunneler_Death</soundDeath>
+          <soundCall>Pawn_Mech_Tunneler_Call</soundCall>
         </li>
-        <li>
-          <bodyGraphicData>
-            <texPath>Things/Pawn/Mechanoid/ParamedicAncient</texPath>
-            <maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/Mech_Paramedic</maskPath>
-            <shaderType>CutoutWithOverlay</shaderType>
-            <graphicClass>Graphic_Multi</graphicClass>
-            <drawSize>1.25</drawSize>
-            <shadowData>
-              <volume>(0.3, 0.4, 0.3)</volume>
-              <offset>(0,0,-0.25)</offset>
-            </shadowData>
-          </bodyGraphicData>
-        </li>
-      </lifeStages>
-      <abilities>
-        <li>FirefoampopMech</li>
-        <li>LongjumpMechLauncher</li>
-      </abilities>
-    </PawnKindDef>
+      </lifeStageAges>
+    </race>
+  </ThingDef>
+
+  <PawnKindDef ParentName="HeavyMechanoidKind">
+    <defName>Mech_TunnelerPlus</defName>
+    <label>advanced tunneler</label>
+    <race>Mech_TunnelerPlus</race>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Mechanoid/Tunneler</texPath>
+          <maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/Mech_Paladin</maskPath>
+          <shaderType>CutoutWithOverlay</shaderType>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.8</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
 
 </Defs>
