@@ -454,6 +454,7 @@
       <mechEnabledWorkTypes>
         <li>Mining</li>
       </mechEnabledWorkTypes>
+      <mechFixedSkillLevel>16</mechFixedSkillLevel>
       <detritusLeavings>
         <li>
           <def>ChunkMechanoidSlag</def>
