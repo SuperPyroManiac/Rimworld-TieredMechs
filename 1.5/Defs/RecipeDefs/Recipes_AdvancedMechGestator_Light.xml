@@ -296,11 +296,12 @@
     </descriptionHyperlinks>
   </RecipeDef>
 
+  <!-- AdvancedTunneler -->
   <RecipeDef ParentName="HeavyMechanoidRecipe">
     <defName>TunnelerPlus</defName>
     <label>gestate advanced tunneler</label>
     <description>Gestate an advanced tunneler mechanoid.</description>
-    <researchPrerequisite>StandardMechtech</researchPrerequisite>
+    <researchPrerequisite>HighMechtech</researchPrerequisite>
     <ingredients Inherit="False">
       <li>
         <filter>
@@ -344,7 +345,7 @@
       </li>
     </ingredients>
     <products>
-      <Mech_Tunneler>1</Mech_Tunneler>
+      <Mech_TunnelerPlus>1</Mech_TunnelerPlus>
     </products>
     <descriptionHyperlinks>
       <ThingDef>Mech_TunnelerPlus</ThingDef>
@@ -694,11 +695,12 @@
     </descriptionHyperlinks>
   </RecipeDef>
 
-    <RecipeDef ParentName="HeavyMechanoidRecipe">
+  <!-- UltraTunneler -->
+  <RecipeDef ParentName="HeavyMechanoidRecipe">
     <defName>TunnelerUltra</defName>
     <label>gestate ultratech tunneler</label>
     <description>Gestate an ultratech tunneler mechanoid.</description>
-    <researchPrerequisite>StandardMechtech</researchPrerequisite>
+    <researchPrerequisite>UltraMechtech</researchPrerequisite>
     <ingredients Inherit="False">
       <li>
         <filter>
@@ -742,7 +744,7 @@
       </li>
     </ingredients>
     <products>
-      <Mech_Tunneler>1</Mech_Tunneler>
+      <Mech_TunnelerUltra>1</Mech_TunnelerUltra>
     </products>
     <descriptionHyperlinks>
       <ThingDef>Mech_TunnelerUltra</ThingDef>
