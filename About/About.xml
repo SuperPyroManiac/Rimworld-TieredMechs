@@ -4,11 +4,12 @@
   <author>SuperPyroManiac</author>
   <packageId>Pyro.TieredMechs</packageId>
   <supportedVersions>
+    <li>1.6</li>
     <li>1.5</li>
     <li>1.4</li>
   </supportedVersions>
   <url>https://github.com/SuperPyroManiac/Rimworld-TieredMechs</url>
-  <description> Mod Version: 1.7.1
+  <description> Mod Version: 1.7.2
 
     Adds new tiers of mechs to make them more useful late game.
     Advanced Tier required HighMechtech research. Built in Advanced Gestator.

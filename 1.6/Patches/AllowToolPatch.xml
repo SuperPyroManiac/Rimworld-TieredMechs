@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Allow Tool</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+				    <xpath>Defs/ThingDef
+					    [
+                              defName="Mech_Lifter" or
+                              defName="Mech_LifterPlus" or
+                              defName="Mech_LifterUltra"
+					    ]
+					    /race/mechEnabledWorkTypes
+				    </xpath>
+				    <value>
+				    	<li>HaulingUrgent</li>
+				    </value>
+			    </li>
+                <li Class="PatchOperationAdd">
+				    <xpath>Defs/ThingDef
+					    [
+                              defName="Mech_Lifter" or
+                              defName="Mech_LifterPlus" or
+                              defName="Mech_LifterUltra"
+					    ]
+					    /race/mechWorkTypePriorities
+				    </xpath>
+				    <value>
+				    	<li><HaulingUrgent>1</HaulingUrgent></li>
+				    </value>
+			    </li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

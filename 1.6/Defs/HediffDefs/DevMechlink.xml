@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <HediffDef ParentName="ImplantHediffBase">
+    <defName>UltraMechlinkImplant</defName>
+    <hediffClass>Hediff_Mechlink</hediffClass>
+    <label>ultramechlink</label>
+    <description>DEV ITEM - Extremely overpowered, used for testing! This headiff adds more capacity to a pawn.</description>
+    <descriptionShort>A cheaty bionic implant that allows direct control of mechanoids. Can only be removed after death.</descriptionShort>
+    <isBad>false</isBad>
+    <removeOnRedressIfNotOfKind>
+      <li>Mechanitor</li>
+      <li>Mechanitor_Basic</li>
+    </removeOnRedressIfNotOfKind>
+    <stages>
+      <li>
+        <statOffsets>
+          <MechBandwidth>100</MechBandwidth>
+          <MechControlGroups>2</MechControlGroups>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_LetterOnDeath">
+        <letterDef>NeutralEvent</letterDef>
+        <letterLabel>Reusable {HEDIFF_label} available.</letterLabel>
+        <letterText>{PAWN} has died with a {HEDIFF_label} installed. This can be removed and installed by someone else.</letterText>
+        <onlyIfNoMechanitorDied>true</onlyIfNoMechanitorDied>
+      </li>
+    </comps>
+  </HediffDef>
+
+  </Defs>
