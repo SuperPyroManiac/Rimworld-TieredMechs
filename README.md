@@ -1,3 +1,8 @@
+> [!important]
+> Repo has been moved to my person GitLab. Issues on GitHub will be ignored.
+> New home: https://git.pyrosfun.com/
+
+
 # Tiered Mechs - Rimworld mod
 
 **A mod that adds new mechs with higher skill levels and speeds! These mechs do not replace the original ones. They are instead a new mech you can research and create.**
@@ -68,5 +73,5 @@ I also plan to add some upgraded combat bots. Things like an improved militor an
 ----------
 
 # Suggestions & Bug Reports
-Please open a ticket on my Github. 
+Please open a ticket on my Github.
 https://github.com/SuperPyroManiac/Rimworld-TieredMechs
